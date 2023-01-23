@@ -2,4 +2,18 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: cornflowerblue;
     margin: 0%;
+    padding: 0%;
+    background: linear-gradient(to right, #CBCE91FF, #EA738DFF);
+}
+
+.calculator-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+}
+
+
 }
