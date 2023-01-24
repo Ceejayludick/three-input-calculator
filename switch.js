@@ -1,21 +1,28 @@
-let tell = prompt("What would you  like to do (*,/,+,-)");
-let dig1 = prompt("Enter first Number");
-let dig2 = prompt("Enter second Number")
-
-function calculate(a,b) {
-    // check the value of the `tell` is one of these cases and return the result.
-    switch (tell) {
-        case "*":
-            return a * b;
-        case "/":
-            return a / b;
-        case "+":
-            return a + b;
-        case "-":
-            return a - b;
-        default:
-            return "You didn't a correct opertor"
-    }
+const problem = "3 add 16";
+const calculate = opr => {
+   const [num1, operation, num2] = opr.split(" ");
+   switch (operation) {
+      case "add":
+         return +num1 + +num2;
+      case "divide":
+         return +num1 / +num2;
+      case "subtract":
+         return +num1 - +num2;
+      case "multiply":
+         return +num1 * +num2;
+      case "modulo":
+         return +num1 % +num2;
+      default:
+         return 0;
+   }
 }
+console.log(calculate(problem));
 
-alert(calculate(+dig1, +dig2))
+const number = '1' ;
+
+switch (number) {
+    case '1' : console.log('One'); break;
+    case '2' : console.log('Two'); break;
+    case '3' : console.log('Two'); break;
+    case '4' : console.log('Two'); break;
+}
