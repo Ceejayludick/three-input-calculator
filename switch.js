@@ -1,13 +1,31 @@
 
+let result;
 
 
-const number = '1' ;
+switch(operator) {
+    case '+':
+         result = number1 + number2;
+        console.log('number1' + '{number2' = 'result`);
+        break;
 
-switch (number) {
-    case '1' : console.log('One'); break;
-    case '2' : console.log('Two'); break;
-    case '3' : console.log('Two'); break;
-    case '4' : console.log('Two'); break;
+    case '-':
+        result = number1 + number2;
+        console.log('number1' + '{number2' = 'result`);
+        break;
+
+    case '*':
+        result = number1 + number2;
+        console.log('number1' + '{number2' = 'result`);
+        break;
+
+    case '/':
+        result = number1 + number2;
+        console.log('number1' + '{number2' = 'result`);
+        break;
+
+    default:
+        console.log('Invalid');
+        break;
 }
 
 console.log(calculate(problem));
