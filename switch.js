@@ -2,9 +2,9 @@
 let result;
 
 
-switch(operator) {
+switch (operator) {
     case '+':
-         result = number1 + number2;
+        result = number1 + number2;
         console.log('number1' + '{number2' = 'result`);
         break;
 
