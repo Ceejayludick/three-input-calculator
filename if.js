@@ -1,24 +1,18 @@
 
-insert(num) 
-{
-    documentdocument.form1.textview.value = document.form1.textview.value + number;
-}
+Let the Input = prompt("Input a thing");
+theInput = parseInt(theInput);
+|
+If (theInput == “+” || theInput == “-“ || theInput == “/“ || theInput == “*”) {
 
-equal()  
-{
-    let exp = document.form1.textview.value;
-    if (exp) 
-    
-    {
-        document.form1.textview.value = eval(exp)
-    }
-}
+alert(“valid”);
 
-backspace()  
-{  
-let exp = document.form1.textview.value;  
-document.form1.textview.value = exp.substring(0, exp.length - 1);   
-}  
+} else {
+
+alert(typeof(theInput))
+let yes = theInput + theInput;
+alert(yes);
+
+}
 
 
 
